@@ -1,0 +1,13 @@
+<h1>Are you sure ?</h1>
+<hr>
+<p>
+    You are going to delete {{ data.superhero}}
+    <br>
+    Do you want to continue ?
+</p>
+
+<div fxLayout>
+    <button mat-button (click)="delete()" color="warn">Yes, delete!</button>
+    <span class="spacer"></span>
+    <button mat-button (click)="cancel()" color="info">Cancel</button>
+</div>
